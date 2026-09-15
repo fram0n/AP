@@ -1,0 +1,43 @@
+$ python3 test1.py
+==> Invoking foo(2,' is ','similar to 2.0')...
+Formal par 'x':<class 'int'>; actual par '2':<class 'int'>
+Formal par 'y':<class 'inspect._empty'>; actual par ' is ':<class 'str'>
+Formal par 'z':<class 'float'>; actual par 'similar to 2.0':<class 'str'>
+Result type <class 'str'>; actual result '2 is similar to 2.0':<class 'str'>
+==> foo(2,' is ','similar to 2.0')= 2 is similar to 2.0
+==> Invoking add1(2,3)...
+Formal par 'x':<class 'int'>; actual par '2':<class 'int'>
+Formal par 'y':<class 'int'>; actual par '3':<class 'int'>
+Result type <class 'int'>; actual result '5':<class 'int'>
+==> add1(2,3)= 5
+==> Invoking add2(2,3)...
+Formal par 'x':<class 'int'>; actual par '2':<class 'int'>
+Formal par 'y':<class 'inspect._empty'>; actual par '3':<class 'int'>
+Result type <class 'inspect._empty'>; actual result '5':<class 'int'>
+==> add2(2,3)= 5
+==> Invoking add3(2,3)...
+Formal par 'x':<class 'str'>; actual par '2':<class 'int'>
+Formal par 'y':<class 'str'>; actual par '3':<class 'int'>
+Result type <class 'str'>; actual result '5':<class 'int'>
+==> add3(2,3)= 5
+==> Invoking add3(2.0,3.14)...
+Formal par 'x':<class 'str'>; actual par '2.0':<class 'float'>
+Formal par 'y':<class 'str'>; actual par '3.14':<class 'float'>
+Result type <class 'str'>; actual result '5.140000000000001':<class 'float'>
+==> add3(2.0,3.14)= 5.140000000000001
+==> Invoking add3(2,3.14)...
+Formal par 'x':<class 'str'>; actual par '2':<class 'int'>
+Formal par 'y':<class 'str'>; actual par '3.14':<class 'float'>
+Result type <class 'str'>; actual result '5.140000000000001':<class 'float'>
+==> add3(2,3.14)= 5.140000000000001
+==> Invoking add3('hel','lo')...
+Formal par 'x':<class 'str'>; actual par 'hel':<class 'str'>
+Formal par 'y':<class 'str'>; actual par 'lo':<class 'str'>
+Result type <class 'str'>; actual result 'hello':<class 'str'>
+==> add3('hel','lo')= hello
+==> Invoking add4('hel','lo')...
+Formal par 'x':<class 'str'>; actual par 'hel':<class 'str'>
+Formal par 'y':<class 'str'>; actual par 'lo':<class 'str'>
+==> add4 invoked: no return value
+Result type <class 'str'>; actual result 'None':<class 'NoneType'>
+==> add4('hel','lo')= None

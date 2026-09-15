@@ -1,0 +1,46 @@
+$ python3 test3.py
+==> Invoking add(2.3,2.3)...
+Parameter '0' has value '2.3', not of type '<class 'int'>'
+Function blocked. Remaining blocks: 1
+==> add(2.3,2.3) = None
+==> Invoking add(2.3,2.3)...
+Parameter '0' has value '2.3', not of type '<class 'int'>'
+Function blocked. Remaining blocks: 0
+==> add(2.3,2.3) = None
+==> Invoking add(2.3,2.3)...
+Parameter '0' has value '2.3', not of type '<class 'int'>'
+Result is '4.6', not of type '<class 'str'>'
+==> add(2.3,2.3) = 4.6
+==> Invoking add1(2,3)...
+==> add1(2,3)= 5
+==> Invoking add1(2.5,3)...
+Parameter '0' has value '2.5', not of type '<class 'int'>'
+Result is '5.5', not of type '<class 'int'>'
+==> add1(2.5,3)= 5.5
+==> Invoking add2(2,'foo')...
+Parameter '1' has value 'foo', not of type '<class 'int'>'
+Function blocked. Remaining blocks: 1
+==> add2(2,'foo')= None
+==> Invoking add2('bar', 3.4)...
+Parameter '0' has value 'bar', not of type '<class 'int'>'
+Parameter '1' has value '3.4', not of type '<class 'int'>'
+Function blocked. Remaining blocks: 0
+==> add2('bar', 3.4)= None
+==> Invoking add3(2.5,3.3)...
+==> add3(2.5,3.3)= 5.8
+==> Invoking add3(2.5,3)...
+==> add3(2.5,3)= 5.5
+==> Invoking add4('hel','lo')...
+Parameter '0' has value 'hel', not of type 'float | int'
+Function blocked. Remaining blocks: 1
+==> add4('hel','lo') = None
+==> Invoking add4(' bar ', 5.6)...
+Parameter '0' has value ' bar ', not of type 'float | int'
+Function blocked. Remaining blocks: 0
+==> add4(' bar ', 5.6) = None
+==> Invoking add4(7.6, 4)...
+Parameter '1' has value '4', not of type 'float | str'
+==> add4(7.6, 4) = 11.6
+==> Invoking add5('hel','lo')...
+==> add5 invoked: no return value
+==> add5('hel','lo') = None
